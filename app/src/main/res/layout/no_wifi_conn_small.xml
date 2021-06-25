@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutDialogContainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="25dp"
+    android:paddingTop="35dp"
+    android:paddingRight="25dp"
+    android:paddingBottom="20dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layoutDialog"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:background="@drawable/dialog_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/no_wifi_header"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/arial"
+            android:gravity="center"
+            android:text="@string/no_internet"
+            android:textColor="@color/white"
+            android:textSize="19sp"
+            app:layout_constraintBottom_toTopOf="@+id/no_wifi_body"
+            app:layout_constraintEnd_toStartOf="@+id/guideline_right_no_wifi"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/guideline_left_no_wifi"
+            app:layout_constraintTop_toTopOf="@+id/guideline_top_no_wifi"
+            app:layout_constraintVertical_bias="0.65999997" />
+
+        <TextView
+            android:id="@+id/no_wifi_body"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/arial"
+            android:gravity="center"
+            android:text="@string/check_internet"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/guideline_25_no_wifi"
+            app:layout_constraintEnd_toStartOf="@+id/guideline_right_no_wifi"
+            app:layout_constraintHorizontal_bias="0.489"
+            app:layout_constraintStart_toStartOf="@+id/guideline_left_no_wifi" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/no_wifi_btn"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_bg"
+            android:fontFamily="@font/arial"
+            android:padding="7dp"
+            android:text="@string/ok"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/guideline_bottom_no_wifi"
+            app:layout_constraintEnd_toStartOf="@+id/guideline_right_no_wifi"
+            app:layout_constraintHorizontal_bias="0.6"
+            app:layout_constraintStart_toStartOf="@+id/guideline_left_no_wifi"
+            app:layout_constraintTop_toTopOf="@+id/guideline_80_no_wifi"
+            app:layout_constraintVertical_bias="0.19999999" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline_left_no_wifi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="30dp" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline_right_no_wifi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_end="30dp" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline_top_no_wifi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline_bottom_no_wifi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="1" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline_25_no_wifi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.33" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline_80_no_wifi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.81" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="0dp"
+            android:layout_height="90dp"
+            app:layout_constraintBottom_toTopOf="@+id/guideline_80_no_wifi"
+            app:layout_constraintEnd_toStartOf="@+id/guideline_right_no_wifi"
+            app:layout_constraintStart_toStartOf="@+id/guideline_left_no_wifi"
+            app:layout_constraintTop_toBottomOf="@+id/no_wifi_body"
+            app:srcCompat="@drawable/no_wifi" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

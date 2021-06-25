@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">1 deqiqe</string>
+
+    //no internet
+    <string name="no_internet">İnternet Bağlantısı Yoxdur!</string>
+    <string name="check_internet">Zəhmət olmasa internet bağlantınızı yoxlayın&#8230;</string>
+
+    //Ok
+    <string name="ok">OK</string>
+
+    //rules
+    <string name="rules">Oyunun qaydaları</string>
+    <string name="rule_1">Oyun 1 dəqiqə ərzində davam edəcək. Bu müddət ərzində mümkün qədər çox suala cavab verməyə çalışmalısınız. 3 səhv etdikdə oyun bitir.\n\nGörək 1 dəqiqə ərzində neçə suala düzgün cavab verə biləcəksiniz.</string>
+    <string name="rule_2">Uğurlar!</string>
+
+    //info
+    <string name="info">Oyun haqqında</string>
+    <string name="info_details">1 dəqiqə - intelektual oyun olub, biliklərinizi yoxlamaq və yeni
+        biliklər əldə etməniz üçün yaradılmış proqramdır.
+        \n\nDizayner:  Fidan Fərəcullayeva
+        \nProqramçı:  Nicat Nəbiyev
+        \n\n\n© Bakı - 2021</string>
+
+    //start
+    <string name="start">Başla</string>
+
+    //go back
+    <string name="go_back">Geri</string>
+
+    //play again
+    <string name="play_again">Yenidən oyna</string>
+
+    //loading
+    <string name="loading">Yüklənir&#8230;</string>
+
+    //press again to exit
+    <string name="preess_again_to_exit">çıxmaq üçün yenidən toxunun</string>
+</resources>

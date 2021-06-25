@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "139481158293",
+    "project_id": "deqiqe-801e4",
+    "storage_bucket": "deqiqe-801e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:139481158293:android:f352e0c62c1f6224e1019c",
+        "android_client_info": {
+          "package_name": "com.nicatnabiyev88.a1deqiqe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "139481158293-ds3cqb784a5vn2geqai9t4uqk9mddl4d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYgEwkIB2AqSw719hMLKg42_vMuolXEoA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "139481158293-ds3cqb784a5vn2geqai9t4uqk9mddl4d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

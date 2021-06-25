@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "238117708766",
+    "firebase_url": "https://coherent-window-279513-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "coherent-window-279513",
+    "storage_bucket": "coherent-window-279513.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:238117708766:android:d305a3acbbc78ebf72334f",
+        "android_client_info": {
+          "package_name": "com.nicatnabiyev88.minute"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "238117708766-5fs5rim34l5u8iogvuqdv1ltr9sc38ah.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpAsW7S51ddVedxRj_DVacVme4oRZu0c0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "238117708766-5fs5rim34l5u8iogvuqdv1ltr9sc38ah.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:238117708766:android:e4ae1628c4005d1072334f",
+        "android_client_info": {
+          "package_name": "com.nicatnabiyev88.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "238117708766-5fs5rim34l5u8iogvuqdv1ltr9sc38ah.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpAsW7S51ddVedxRj_DVacVme4oRZu0c0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "238117708766-5fs5rim34l5u8iogvuqdv1ltr9sc38ah.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
